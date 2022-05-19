@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lora:wght@400;500;600;700&family=Macondo&family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+html,
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgba(145, 103, 49, 0.596);
+    color: rgba(32, 32, 32, 0.808);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,
+h4,
+p{
+    line-height: 1.4rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 3px;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.btn-red{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(145, 103, 49, 0.596);
+    text-align: center;
+}
+
+
+
+form label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+form .form-grupo{
+    margin-bottom: 1rem;
+}
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .7rem;
+    font-size: 1rem;
+}
+
+
+/*Navegador*/
+
+.logo{
+    width: 5vw;
+}
+
+.large{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+ 
+}
+.large1{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+.large2{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+#mainheader{
+    background-image: url(/img/UltimaPrueba3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+/*Patrocinio*/
+
+
+#patrocinio{
+background-image: linear-gradient(to right,
+#000, #808080);
+    padding-top: 70px;
+    padding-bottom: 400px;
+}
+
+.patrocinio-box{
+    float: left;
+    width: 32%;
+    text-align: center;
+
+}
+
+.patrocinio-box img{
+    height: 145px;
+    margin-top: 27%;
+}
+
+
+/*Fundadores*/
+
+
+#fundadores{
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 30%;
+
+}
+#fundadores h4{
+    padding-bottom: 20px;
+}
+
+.fundadores-box{
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+.fundadores-box img{
+    width: 220px;
+    text-align: center;
+}
+
+#redes-fundadores{
+    display: block;
+
+}
+.REDES a{
+    color: #000;
+}
+/*Guia*/
+
+
+#guia{
+    padding-bottom: 50px;
+    margin-top: 40%
+}
+
+#guia p{
+    text-align: center;
+    padding-top: 100px;
+}
+#guia h3{
+    text-align: center;
+    
+}
+
+/*Soporte*/
+
+
+
+
+
+
+/*¿Que Somos?*/
+
+#quesomos{
+    text-align: center;
+    margin-top: 30%;
+}
+
+#quesomos p{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/*Footer*/
+
+#mainfooter{
+    text-align: center;
+    padding: 30px;
+    background-image: url(/img/istockphoto-1128458526-170667a.jpg);
+}
+.redes-sociales{
+    float: right;
+    display: flex;
+    width: 120px;
+    height: 30px;   
+}
+
+.redes-sociales a{
+    margin: 0 5px;
+    line-height: 5px;
+    font-size: 30px;
+    color: rgb(2, 68, 99);
+    box-shadow: 0px 5px 5px 0px rgb(54, 53, .52);
+}
+
+.redes-sociales a:hover{
+    filter: blur(2px);
+}
+.redes-sociales a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgb(54, 53, .104);
+    filter: none;
+}
